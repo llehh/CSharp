@@ -18,7 +18,7 @@ public class IncrementPractice : MonoBehaviour
         result2 = number2--;
 
         Debug.Log($"result1: {result1}"); //3
-        Debug.Log($"result2: {result2}"); //6
+        Debug.Log($"result2: {result2}"); //6ㅑ
 
 
     }
