@@ -432,7 +432,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1954798984
+--- !u!1 &2102437526
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -440,17 +440,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1954798986}
-  - component: {fileID: 1954798985}
-  - component: {fileID: 1954798987}
-  - component: {fileID: 1954798988}
-  - component: {fileID: 1954798989}
-  - component: {fileID: 1954798990}
-  - component: {fileID: 1954798991}
-  - component: {fileID: 1954798992}
-  - component: {fileID: 1954798993}
-  - component: {fileID: 1954798994}
-  - component: {fileID: 1954798995}
+  - component: {fileID: 2102437528}
+  - component: {fileID: 2102437527}
+  - component: {fileID: 2102437529}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -458,141 +450,45 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1954798985
+--- !u!114 &2102437527
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954798984}
+  m_GameObject: {fileID: 2102437526}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 048785e2828c9c843ae4c13463c76020, type: 3}
+  m_Script: {fileID: 11500000, guid: b56baa22de81ea44abfbd4b0ad66d843, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ArrayOne
---- !u!4 &1954798986
+  m_EditorClassIdentifier: Assembly-CSharp::StructureDemo
+--- !u!4 &2102437528
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954798984}
+  m_GameObject: {fileID: 2102437526}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.00001, y: 0, z: 0.00001}
+  m_LocalPosition: {x: -0.00001, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1954798987
+--- !u!114 &2102437529
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954798984}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86cdabc0bf240dc459b991d637970761, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ArrayTwo
---- !u!114 &1954798988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954798984}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbb29a7d215c40f439336da4b939b022, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ArrayString
---- !u!114 &1954798989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954798984}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fbb29a7d215c40f439336da4b939b022, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ArrayString
---- !u!114 &1954798990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954798984}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54acc78f322fe2a458a657a87719cedb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ArrayIndex
---- !u!114 &1954798991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954798984}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88c71ca8ce9e9cc43bebb74bb63d1ce5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ArraySum
---- !u!114 &1954798992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954798984}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f1151199c7e4864890ae21526be64d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ArrayTwoDemo
---- !u!114 &1954798993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954798984}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29e060740e7d01a4897d7b0773191788, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ArrayTwoNote
---- !u!114 &1954798994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954798984}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54efb7ae9b4309c4097c3adfe06e564f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ArrayTwoDescrition
---- !u!114 &1954798995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1954798984}
+  m_GameObject: {fileID: 2102437526}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ef9a7b75357f3f441886fde037f56a9f, type: 3}
+  m_Script: {fileID: 11500000, guid: a1c76afa762ae8c41abb015a9121aaf8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ArrayPractice
+  m_EditorClassIdentifier: Assembly-CSharp::StructureNote
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -600,4 +496,4 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
-  - {fileID: 1954798986}
+  - {fileID: 2102437528}
